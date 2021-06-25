@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Meu CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>JavaScript</title>
+    <!--Início do cabeçalho-->
+
+<body>
+
+    <head>
+    </head>
+    <!--Fim do cabeçalho-->
+    <!--Início do conteúdo-->
+    <main class="container">
+        <div class="topo">
+            <h1>Informações sobre o roteiro</h1>
+            <p>Clique nos botões para verificar as informações extraidas do roteiro de Gulliver:</p>
+        </div>
+        <!--Início Seção 1-->
+        <div class="enunciado">
+        <h3>Nomes das cidades avaliadas</h3>
+        </div>
+        <div class="container box">
+            <div class="row">
+              <div class="col-sm">
+            <p>Primeira cidade:</p>
+            <a class="btn btn-success"  href="javascript:cidade_um();">Chamar a função</a>
+              </div>
+              <div class="col-sm">
+                <p>Segunda cidade:</p> 
+                <a class="btn btn-success" href="javascript:cidade_dois();">Chamar a função</a></p>
+              </div>
+              <div class="col-sm">
+                <p>Terceira cidade:</p> 
+            <a class="btn btn-success" href="javascript:cidade_tres();">Chamar a função</a>
+              </div>
+            </div>
+          </div>
+       <!--Fim Seção 1-->
+      
+       <!--Início da seção 2-->
+       <div enunciado>
+       <h3>Conteúdo do roteiro A de cada cidade avaliada</h3>
+        </div>
+       <div class="container box">
+        <div class="row">
+          <div class=" borda col-sm">
+            <p>Roteiro A da primeira cidade:</p> 
+            <a class="btn btn-success" href="javascript:cidade_um_roteiro_a();">Chamar a função</a>
+          </div>
+          <div class="col-sm">
+            <p>Roteiro A da segunda cidade:</p> 
+            <a class="btn btn-success" href="javascript:cidade_dois_roteiro_a();">Chamar a função</a>
+          </div>
+          <div class="col-sm">
+            <p>Roteiro A da terceira cidade:</p>
+            <a class="btn btn-success" href="javascript:cidade_tres_roteiro_a();">Chamar a função</a>
+          </div>
+        </div>
+      </div>
+      <!--Fim da seção 2-->
+      
+      <!--Início da seção 3-->
+        <div class="enunciado">
+            <h3>Quantos locais são citados no roteiro A de cada cidade</h3>
+        </div>
+            <div class="container box">
+                <div class="row">
+                  <div class="col-sm">
+                    <p>Número de locais citados no roteiro A da primeira cidade:</p>
+                        <a class="btn btn-success" href="javascript:numero_cidade_um_roteiro_a();">Chamar a função</a>
+                  </div>
+                  <div class="col-sm">
+                    <p>Número de locais citados no roteiro A da segunda cidade:</p>
+                    <a class="btn btn-success" href="javascript:numero_cidade_dois_roteiro_a();">Chamar a função</a>
+                  </div>
+                  <div class="col-sm">
+                    <p>Número de locais citados no roteiro A da terceira cidade:</p>
+                        <a class="btn btn-success" href="javascript:numero_cidade_tres_roteiro_a();">Chamar a função</a>
+                  </div>
+                </div>
+              </div>
+        <!--Fim da seção 3-->     
+        <!--Início da seção 4-->
+        <div class="container box">
+            <div class="row">
+              <div class="col-sm">
+                <p>Os nomes dos pontos turísticos localizados no bairro Centro da cidade de São Paulo:</p>
+                <a class="btn btn-success" href="javascript:pontos_turisticos_centro_de_sp();">Chamar a função</a>
+              </div>
+              <div class="col-sm">
+                <p>Os nomes dos pontos turísticos localizados no bairro Downtown na cidade de Las Vegas:</p>
+                <a class="btn btn-success" href="javascript:pontos_turisticos_downtown();">Chamar a função</a>
+              </div>
+            </div>
+          </div>
+        <!--Fim da seção 4 -->
+    </main>
+    <!--Fim do conteúdo-->
+    <!--Início do rodapé-->
+    <footer>
+
+    </footer>
+    <!--Fim do rodape-->
+    <!--Meu js-->
+    <script src="./script.js"></script>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
